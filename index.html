@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- JS -->
+    <script defer src="./app.js"></script>
+
+    <!-- email library: smptJS -->
+    <script src="https://smtpjs.com/v3/smtp.js" defer></script>
+
+    <title>Nexus App Solution</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <img src="./assets/logo.svg" alt="logo" class="logo" />
+      <div class="menubar">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#whoWeAre">who we are</a></li>
+          <li><a href="#whyUs">why us</a></li>
+          <li><a href="#story">our story</a></li>
+          <li><a href="#model">process model</a></li>
+          <li>
+            <a href="#contact"><button>contact us</button></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__description">
+        <h1>
+          Bringing your vision To Life With <span>Custom</span> Mobile App
+          Solutions
+        </h1>
+        <p>
+          Creating seamless experiences on the go with mobile app development
+        </p>
+        <a href="#contact">Get in touch with us</a>
+      </div>
+
+      <img src="./assets/heroImage.svg" alt="image" />
+    </section>
+
+    <!-- MAIN -->
+    <main>
+      <!-- WHO WE ARE -->
+      <section id="whoWeAre" class="whoWeAre">
+        <h2>Who we are</h2>
+        <p>
+          Your one stop shop for a <span>custom</span> app made for your needs.
+        </p>
+        <p>
+          Are you tired of using a generic, one size fits all apps that don’t
+          quite meet your business needs? If so, then Nexus is the solution for
+          you.
+        </p>
+      </section>
+
+      <!-- WHY US -->
+      <section id="whyUs" class="whyUs">
+        <article>
+          <img src="./assets/questionMark.svg" alt="question mark" />
+          <div>
+            <h2>Why do you need your own app?</h2>
+            <p>
+              A custom mobile app allows you to engage with your customers in a
+              way that a website or social media platform can't. You can send
+              push notifications about special offers, promotions, and events,
+              keeping your customers informed and engaged. You can also create
+              loyalty programs, reward customers for their repeat business, and
+              gather valuable feedback through in-app surveys.
+            </p>
+          </div>
+        </article>
+
+        <article>
+          <img src="./assets/revenue.svg" alt="revenue" />
+          <div>
+            <h2>Increase revenue and ROI</h2>
+            <p>
+              Increased customer engagement means customers are more likely to
+              buy from you or engage your services. This translates into higher
+              revenue, profits, and ultimately ROI. At Nexus, we believe that
+              you don’t have to spend a fortune to have an app that is made
+              specifically for you. With an efficient project management
+              process, we can help you keep costs down and maximize ROI, all the
+              while keeping app quality high.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <!-- OUT STORY -->
+      <section id="story" class="story">
+        <img src="./assets/story.svg" alt="our story" />
+        <div>
+          <h2>Our Story</h2>
+          <h3>Built With Professional Excellence And Integrity</h3>
+          <p>
+            At Nexus App Solutions, we establish meaningful, long-term
+            relationships and drive market-defining results. As a burgeoning app
+            development and design agency, we do our best to ensure your online
+            success. We empower your brand with the goal of growing together!
+          </p>
+          <h3>We Hold High Standards</h3>
+          <p>
+            As a people-centric company, we at Nexus maintain the highest
+            quality standards and integrity to deliver results to our clients.
+          </p>
+        </div>
+      </section>
+
+      <!-- PROCESS MODEL -->
+      <section id="model" class="model">
+        <h2>Our process model</h2>
+        <img src="./assets/process-model.svg" alt="process model" />
+        <div class="model__articles">
+          <article>
+            <h3>1. Gather Requirements</h3>
+            <p>
+              We will start by understanding the business goals you want the app
+              to help you achieve. Then, we will develop use cases to try to
+              understand how different users will use the app. This will help
+              inform what functionalities should be implemented and how they
+              will be implemented.
+            </p>
+          </article>
+          <article>
+            <h3>2. Interactive Prototyping</h3>
+            <p>
+              After the initial requirements gathering and before we do any
+              actual development, we will make an interactive visual prototype
+              for you. This prototype will allow you to see how the resulting
+              app will behave and how different screens flow into one another.
+            </p>
+          </article>
+          <article>
+            <h3>3. Go or no go?</h3>
+            <p>
+              After the first prototype is developed, you can review and
+              interact with it. If you are happy with the prototype, you can
+              decide to go ahead with the next step in the development journey.
+            </p>
+          </article>
+          <article>
+            <h3>4. Iterative Development Process</h3>
+            <p>
+              After the first prototype is developed, you can review and
+              interact with it. If you are happy with the prototype, you can
+              decide to go ahead with the next step in the development journey.
+            </p>
+          </article>
+          <article>
+            <h3>5. Prototype Evolution</h3>
+            <p>
+              After a prototype is finished, you will have a chance to test and
+              evaluate it. If you are satisfied with it, it can be primed for
+              release after rigorous testing and quality assurance. If you need
+              further changes, the prototype can be further evolved to take new
+              requirements into account.
+            </p>
+          </article>
+          <article>
+            <h3>6. Testing & Quality Assurance</h3>
+            <p>
+              After the first prototype is developed, you can review and
+              interact with it. If you are happy with the prototype, you can
+              decide to go ahead with the next step in the development journey.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <div>
+        <h2>Get in touch with us</h2>
+        <div class="contactMethods">
+          <!-- CALL US -->
+          <div class="contactMethod">
+            <img src="./assets/phone.png" alt="call" />
+            <div>
+              <h3>Call US:</h3>
+              <p>+94 222 22 22</p>
+            </div>
+          </div>
+
+          <!-- EMAIL -->
+          <div class="contactMethod">
+            <img src="./assets/email.png" alt="email" />
+            <div>
+              <h3>Email:</h3>
+              <p>infor@logofolio.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FORM -->
+      <form>
+        <div>
+          <input type="text" placeholder="First Name" name="firstname" />
+          <input type="text" placeholder="Last Name" name="lastname" />
+          <input type="number" placeholder="Phone" name="phone" />
+          <input type="text" placeholder="Forcasted Budget" name="budget" />
+        </div>
+        <textarea
+          cols="30"
+          rows="5"
+          placeholder="Your Message"
+          name="message"
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>
+        ©2023 Nexus App Solutions. All rights reserved | Concept and Design by
+        Kaveesha
+      </p>
+    </footer>
+  </body>
+</html>
